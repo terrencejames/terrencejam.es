@@ -1,4 +1,4 @@
-/*** 
+/***
 ====================================================================
   Table of contents
 ====================================================================
@@ -6,24 +6,24 @@
 - Google Fonts
 - General Css Styles
 - Header style
-- Navbar Styles 
+- Navbar Styles
 - About section styles
-- Seatures Section styles 
-- Services Section style 
-- Fun-Facts Section Styles 
-- Contact Section styles 
-- Blog Section style 
+- Seatures Section styles
+- Services Section style
+- Fun-Facts Section Styles
+- Contact Section styles
+- Blog Section style
 - Skills Section style
-- Portfolio Section style 
-- pricing table style 
-- Testimonials Section style  
+- Portfolio Section style
+- pricing table style
+- Testimonials Section style
 - Work Process Section styles
-- Footer area style 
+- Footer area style
 - Blog Page
 
 ***/
 
-/*** 
+/***
 
 ====================================================================
   Google fonts
@@ -33,7 +33,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
-/*** 
+/***
 
 ====================================================================
   Important css
@@ -453,7 +453,7 @@ i-circled {
     font-style: italic
 }
 
-/*** 
+/***
 
 ====================================================================
   Header Section style
@@ -742,8 +742,8 @@ i-circled {
     box-shadow: inset 0 0 0 1px #ddd;
 }
 .social-link:hover .color-hover.down{
-    height: 100% 
-} 
+    height: 100%
+}
 .line-button-text {
     position: relative;
     z-index: 1;
@@ -1145,7 +1145,7 @@ i-circled {
     z-index: -1
 }
 
-/*** 
+/***
 
 ====================================================================
   Navbar styles
@@ -1566,7 +1566,7 @@ i-circled {
 }
 
 
-/*** 
+/***
 
 ====================================================================
   About Section styles
@@ -1702,7 +1702,7 @@ i-circled {
     display: block
 }
 @media (min-width:544px) {
-    
+
     .profile-detail .inner-content {
         padding: 35px 20px
     }
@@ -1833,7 +1833,7 @@ i-circled {
     left: 60px;
     width: 190px
 }
-/*** 
+/***
 
 ====================================================================
   Features Section styles
@@ -1896,7 +1896,7 @@ i-circled {
     text-align: left;
     margin-right: 15px;
     margin-bottom: 30px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     padding: 50px 1%;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
@@ -1932,7 +1932,7 @@ i-circled {
 }
 .service-number{
     position: absolute;
-    right: 50px;
+    right: 25px;
     top: 50px;
     opacity: 0.1;
     font-family: Oswald, sans-serif;
@@ -1942,14 +1942,14 @@ i-circled {
     display: inline;
     position: relative;
     top: -10px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 50px;
 }
 .service-v1-number{
     display: inline;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 64px;
-    
+
 }
 .service-item-v1 .place-top{
     margin-left: 0;
@@ -1990,7 +1990,7 @@ i-circled {
     margin-bottom: 16px
 }
 
-/*** 
+/***
 
 ====================================================================
   Services Section styles
@@ -2317,7 +2317,7 @@ i-circled {
     height: -moz-calc(100%);
     height: -webkit-calc(100%);
     top: 0
-} 
+}
 @media (max-width:767px) {
     .panel-group.panel-resume .panel:before {
         display: none!important
@@ -2447,7 +2447,7 @@ textarea.w-input, textarea.w-select {
     background-image: url(../images/icons/submit-icon.svg);
     background-position: 20px 50%;
     background-repeat: no-repeat;
-    border: 0; 
+    border: 0;
     margin-bottom: 0
 }
 input.w-button {
@@ -2457,7 +2457,7 @@ input.w-button {
     background-color: #f6a136;
 }
 
-/*** 
+/***
 
 ====================================================================
   Fun-Facts Section styles
@@ -2493,7 +2493,7 @@ padding-bottom: 70px
     font-size: 17px;
 }
 
-/*** 
+/***
 
 ====================================================================
   Blog Section styles
@@ -2534,7 +2534,7 @@ padding-bottom: 70px
     position: relative;
     padding-right: 8px;
     padding-left: 16px;
-    padding: 20px 10px 
+    padding: 20px 10px
 }
 .blog-v1 a .service-v2-heading{
     color: #fff
@@ -2552,7 +2552,7 @@ padding-bottom: 70px
     box-shadow: 0 2px 0 0 #faaf52;
 }
 
-/*** 
+/***
 
 ====================================================================
   Skills Section styles
@@ -2566,7 +2566,7 @@ padding-bottom: 70px
 @media (max-width: 767px){
    .skills-bar-chart {
         margin-bottom: 60px
-    } 
+    }
     #skills-bar-chart{
         padding-bottom: 40px !important
     }
@@ -2764,7 +2764,7 @@ padding-bottom: 70px
     color: #fff;
 }
 
-/*** 
+/***
 
 ====================================================================
   Portfolio Section styles
@@ -2899,7 +2899,7 @@ padding-bottom: 70px
     }
 }
 @media (max-width:630px) {
-    
+
     .blog-v1 .service-item,
     .service-item-v1
     {
@@ -2950,7 +2950,7 @@ padding-bottom: 70px
     background: #faaf52
 }
 
-/*** 
+/***
 
 ====================================================================
   Pricing Section styles
@@ -2984,7 +2984,7 @@ padding-bottom: 70px
     color: #333;
 }
 
-/*** 
+/***
 
 ====================================================================
   Testimonials Section styles
@@ -3029,7 +3029,7 @@ padding-bottom: 70px
     box-shadow: 0 2px 0 0 #faaf52;
 }
 @media(max-width: 767px){
-    
+
     .testi-content{
         padding-left: 0;
         padding-right: 0;
@@ -3037,7 +3037,7 @@ padding-bottom: 70px
     }
 }
 
-/*** 
+/***
 
 ====================================================================
   Work Process Section styles
@@ -3321,7 +3321,7 @@ padding-bottom: 70px
     padding: 0 8px
 }
 
-/*** 
+/***
 
 ====================================================================
   Footer Section styles
@@ -3454,7 +3454,7 @@ padding-bottom: 70px
         transform: rotateX(0deg) translateY(0px);
     }
 }
-/*** 
+/***
 
 ====================================================================
   Blog Page
@@ -3506,8 +3506,8 @@ padding-bottom: 70px
 
 .blog-img.fix {
     left: 48px;
-    z-index: 2; 
-    padding-left: 44px; 
+    z-index: 2;
+    padding-left: 44px;
 }
 .post-panel {
     position: fixed;
